@@ -6,13 +6,16 @@
   <body>
     <h1>Bot Que Saluda</h1>
 
-    <label>Selecciona una opción / Select an option </label>
-    <select id="idoma" name="opciones">
-      <option value="ES">Español</option>
-      <option value="EN">English</option>
-    </select>
-
     <form id="saludar-form">
+
+      <label>Selecciona una opción / Select an option </label>
+      <select id="idioma" name="opciones">
+        <option value="ES">Español</option>
+        <option value="EN">English</option>
+      </select>
+      
+      <br>
+      
       <label for="Nombre">¿Cuál es tu nombre?</label>
       <input type="text" id="nombre-input">
 
@@ -20,9 +23,9 @@
       
       <label for="Genero">Selecciona una opción:</label>
       <select id="genero" name="opciones">
-        <option value="F">Femenino</option>
-        <option value="M">Masculino</option>
-        <option value="O">Otro</option>
+        <option value="F">F</option>
+        <option value="M">M</option>
+        <option value="O">-</option>
       </select>
       
       <br>
@@ -31,7 +34,7 @@
       <input type="text" id="edad-input">
       
       <br>
-      <button type="submit" id="saludar-boton">Enviar/Send</button>
+      <button type="submit" id="saludar-boton">Enviar</button>
     
     </form>
 

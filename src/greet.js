@@ -15,19 +15,19 @@ function greet_gender_age(gender,age){
     var pro_noun;
     if (age >= 30){
         if (gender === 'M')
-            pro_noun= "señor";
+            pro_noun= "gentlemen";
         else if (gender === 'F')
-            pro_noun= "señora";
+            pro_noun= "lady";
         else 
-            pro_noun= "señore";
+            pro_noun= "them";
     }
     else{
         if (gender === 'M')
             pro_noun= "boy";
-        else if (genero === 'F')
+        else if (gender === 'F')
             pro_noun= "girl";
         else 
-            pro_noun= "friend";
+            pro_noun= "them";
     }
 
     return pro_noun;
