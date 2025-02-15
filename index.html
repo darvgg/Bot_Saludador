@@ -9,9 +9,16 @@
       <label for="Nombre">¿Cuál es tu nombre?</label>
       <input type="text" id="nombre-input">
       <br>
+      <label for="Genero">Selecciona una opción:</label>
+      <select id="genero" name="opciones">
+        <option value="F">Femenino</option>
+        <option value="M">Masculino</option>
+        <option value="O">Otro</option>
+      </select>
+      <br>
       <button type="submit" id="saludar-boton">Saludar</button>
     </form>
-    
+
     <div id="resultado-div"></div>
     
     <script type="module" src="./src/presenter.js"></script>
