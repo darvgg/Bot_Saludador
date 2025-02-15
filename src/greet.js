@@ -36,7 +36,7 @@ function greet_gender_age(gender,age){
 
 function greeting(name, gender,age){
     var message;
-    start_message=message_hour(hour);
+    var start_message=message_hour(hour);
     pronoun=greet_gender_age(gender,age);
     message = start_message + " " + pronoun + " " + name;
     return message;
