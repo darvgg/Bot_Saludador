@@ -37,7 +37,7 @@ function saludar_genero_edad(genero,edad){
 function saludo(nombre, genero,edad){
     var mensaje;
     var inicio_saludo=saludar_hora(hora);
-    pronom=saludar_genero_edad(genero,edad);
+    var pronom=saludar_genero_edad(genero,edad);
     mensaje = inicio_saludo + " " + pronom + " " + nombre;
     return mensaje;
 }
