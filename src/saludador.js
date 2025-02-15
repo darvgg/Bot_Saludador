@@ -1,5 +1,5 @@
 function saludar_hola(nombre){
-
-    return "Hola"+nombre;
+    var txt = "Hola "+nombre
+    return txt;
 }
 export default saludar_hola;
