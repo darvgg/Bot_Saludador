@@ -1,4 +1,5 @@
-const hora = new Date().getHours();
+const fecha = new Date();
+const hora = fecha.getHours();
 
 function saludar_hora(){
     var txt;

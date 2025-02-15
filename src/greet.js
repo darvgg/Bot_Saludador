@@ -1,4 +1,5 @@
-const hour = new Date().getHours();
+const date = new Date();
+const hour = date.getHours();
 
 function message_hour(){
     var txt;
